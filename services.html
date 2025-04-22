@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>NoStress Co.</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="img/logo.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="vendor/aos/aos.css" rel="stylesheet" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <h1 class="logo me-auto me-lg-0">
+          <a href="index.html">
+            <img
+              src="img/logo.png"
+              alt="NoStress Co. Logo"
+              style="height: 80px; margin-right: 8px"
+            />
+            NoStress Co.
+          </a>
+        </h1>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="membership.html">Membership</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Layanan Kami</h2>
+            <p>
+              Kami Hadir Untuk Jadi Solusi Saat Kamu Butuh Bantuan Cepat Dan
+              Bisa Diandalkan
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-box">
+              <i class="fas fa-pencil-alt service-icon"></i>
+              <h3>Siswa / Mahasiswa</h3>
+              <p>
+                Start From Rp. 5000,- <br />
+                Harga tergantung halaman atau project.
+              </p>
+              <button
+                class="btn detail-btn"
+                data-modal-target="#modal-siswa-mahasiswa"
+              >
+                Lihat Detail
+              </button>
+            </div>
+
+            <div class="service-box">
+              <i class="fas fa-briefcase service-icon"></i>
+              <h3>Regular / Bisnis</h3>
+              <p>
+                Start From Rp. 15.000,- <br />
+                Ketentuan tambahan tergantung JobDesk yang di kerjakan.
+              </p>
+              <button
+                class="btn detail-btn"
+                data-modal-target="#modal-regular-bisnis"
+              >
+                Lihat Detail
+              </button>
+            </div>
+
+            <div class="service-box">
+              <i class="fas fa-palette service-icon"></i>
+              <h3>Desain Grafis</h3>
+              <p>
+                Start From Rp. 25.000,- <br />
+                Tergantung Project Desain.
+              </p>
+              <button
+                class="btn detail-btn"
+                data-modal-target="#modal-desain-grafis"
+              >
+                Lihat Detail
+              </button>
+            </div>
+
+            <div class="service-box">
+              <i class="fas fa-calculator service-icon"></i>
+              <h3>Akuntansi</h3>
+              <p>
+                Layanan akuntansi untuk keuangan & pembukuan—rapi dan anti
+                ribet! <br />
+                Start From Rp. 30.000,-
+              </p>
+              <button
+                class="btn detail-btn"
+                data-modal-target="#modal-akuntansi"
+              >
+                Lihat Detail
+              </button>
+            </div>
+
+            <div class="service-box">
+              <i class="fas fa-gamepad service-icon"></i>
+              <h3>Mobile Legends</h3>
+              <p>
+                Joki Mobile Legends aman & cepat. Naik rank tanpa ribet, akun
+                dijamin aman!<br />
+                Start From Rp. 2000,-
+              </p>
+              <button
+                class="btn detail-btn"
+                data-modal-target="#modal-mobile-legends"
+              >
+                Lihat Detail
+              </button>
+            </div>
+
+            <div class="service-box">
+              <i class="fas fa-puzzle-piece service-icon"></i>
+              <h3>FC Mobile</h3>
+              <p>
+                Naikin divisi, grind event, atau squad upgrade tanpa repot!<br />
+                Start From Rp. 2000,-
+              </p>
+              <button
+                class="btn detail-btn"
+                data-modal-target="#modal-fc-mobile"
+              >
+                Lihat Detail
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-siswa-mahasiswa" class="modal">
+          <div class="modal-content">
+            <h2>Siswa & Mahasiswa</h2>
+            <ul class="modal-description-list">
+              <li>Makalah</li>
+              <li>Tugas Umum & Teknik Informatika</li>
+              <li>Jurnal</li>
+              <li>Jasa Ketik / Translate</li>
+              <li>Power Point</li>
+              <li>Laporan Kerja Praktek</li>
+              <li>Cek Turnitin : 5k / 3x pengecekan (Hanya cek Turnitin)</li>
+            </ul>
+            <div class="modal-buttons">
+              <button
+                class="btn whatsapp-btn green-btn"
+                onclick="hubungiWa('Siswa & Mahasiswa')"
+              >
+                Pesan Sekarang
+              </button>
+              <button class="btn close-btn red-btn">Tutup</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-regular-bisnis" class="modal">
+          <div class="modal-content">
+            <h2>Regular / Bisnis</h2>
+            <ul class="modal-description-list">
+              <li>Pembuatan Macam Surat Keluar/Masuk</li>
+              <li>Pembuatan Packing List</li>
+              <li>Pembuatan PO</li>
+              <li>Pembuatan DO</li>
+              <li>Pembuatan Surat Jalan</li>
+              <li>Pembuatan Invoice</li>
+              <li>Daily Report</li>
+              <li>Pembuatan Surat Lamaran</li>
+              <li>Pembuatan CV ATS</li>
+              <li>Penyusunan Berkas Lamaran Kerja</li>
+              <li>
+                Pengerjaan Tes Lamaran Kerja (Via Online serta tidak terakses
+                Camera)
+              </li>
+            </ul>
+            <h5>
+              Note :
+              <strong>Batas Maksimal Deadline Harap Dikomunikasikan.</strong>
+            </h5>
+            <div class="modal-buttons">
+              <button
+                class="btn whatsapp-btn green-btn"
+                onclick="hubungiWa('Regular / Bisnis')"
+              >
+                Pesan Sekarang
+              </button>
+              <button class="btn close-btn red-btn">Tutup</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-desain-grafis" class="modal">
+          <div class="modal-content">
+            <h2>Desain Grafis</h2>
+            <ul class="modal-description-list">
+              <li>Desain Logo (Bisnis / Brand)</li>
+              <li>Poster</li>
+              <li>Banner</li>
+              <li>Voucher</li>
+              <li>Ticketing</li>
+              <li>Kartu Nama</li>
+              <li>Paket Partai</li>
+              <li>Brosur</li>
+              <li>Stiker</li>
+              <li>Sertifikat</li>
+              <li>UI Mobile</li>
+              <li>Web Design</li>
+            </ul>
+            <div class="modal-buttons">
+              <button
+                class="btn whatsapp-btn green-btn"
+                onclick="hubungiWa('Desain Grafis')"
+              >
+                Pesan Sekarang
+              </button>
+              <button class="btn close-btn red-btn">Tutup</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-akuntansi" class="modal">
+          <div class="modal-content">
+            <h2>Akuntansi</h2>
+            <ul class="modal-description-list">
+              <li>
+                Harap jelaskan detail kriteria penghitungan akuntansi yang
+                dibutuhkan
+              </li>
+              <li>Harap komunikasikan deadline kebutuhan penyelesaian</li>
+              <li>Keamanan data dan angka dipastikan terjaga</li>
+              <li>Bisa request keterangan hasil (Bila Diperlukan)</li>
+              <li>
+                Payment start from 30k tergantung Project dan Tingkat Kesulitan
+                berdasarkan waktu (LAPORAN HARIAN, MINGGUAN, BULANAN, TAHUNAN)
+                *bisa request ads-on tambahan project (NERACA, LAPORAN LABA
+                RUGI, DLL.)
+              </li>
+              <li>File dikirimkan via Whatsapp</li>
+            </ul>
+            <div class="modal-buttons">
+              <button
+                class="btn whatsapp-btn green-btn"
+                onclick="hubungiWa('Akuntansi')"
+              >
+                Pesan Sekarang
+              </button>
+              <button class="btn close-btn red-btn">Tutup</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-mobile-legends" class="modal">
+          <div class="modal-content">
+            <h2>Mobile Legends</h2>
+            <h3>Profile Worker :</h3>
+            <ul class="modal-description-list">
+              <li>Order 1 Worker</li>
+              <li>Ex MVP Finals Kejurnas</li>
+              <li>Free Request Role</li>
+            </ul>
+
+            <h3>PERATURAN :</h3>
+            <ul class="modal-description-list">
+              <li>TIDAK MENJAMIN WS</li>
+              <li>DEFEAT TIDAK DIHITUNG PAYMENT</li>
+              <li>DIHARAPKAN TIDAK TABRAK LOGIN AKUN SAAT PENGERJAAN AKUN</li>
+              <li>NO MAGIC CHESS</li>
+              <li>MYTHIC++ TIDAK MEMBUKA ORDER (WORKER SOLO)</li>
+            </ul>
+
+            <h3>Daftar Harga Paket :</h3>
+            <ul class="modal-description-list">
+              <li><b>PAKET MASTER :</b> 2K/MATCH</li>
+              <li><b>PAKET GRANDMASTER :</b> 2K/MATCH</li>
+              <li><b>PAKET EPIC V - EPIC IV :</b> 10K</li>
+              <li><b>PAKET EPIC IV - EPIC III :</b> 10K</li>
+              <li><b>PAKET EPIC III - EPIC II :</b> 12K</li>
+              <li><b>PAKET EPIC II - EPIC I :</b> 15K</li>
+              <li><b>PAKET EPIC I - LEGEND V :</b> 17K</li>
+              <li><b>PAKET LEGEND V - LEGEND IV :</b> 25K</li>
+              <li><b>PAKET LEGEND IV - LEGEND III :</b> 25K</li>
+              <li><b>PAKET LEGEND III - LEGEND II :</b> 27K</li>
+              <li><b>PAKET LEGEND II - LEGEND I :</b> 28K</li>
+              <li><b>PAKET LEGEND I - MYTHIC GRADING :</b> 30K</li>
+            </ul>
+
+            <p><b>Note :</b></p>
+            <ul class="modal-description-list">
+              <li>REQUEST HERO : +15K PER PAKET</li>
+              <li>EDIT JJ : +10K/VIDEO</li>
+              <li>BONUS : BUILD/ITEM</li>
+              <li>KEAMANAN AKUN TERJAGA YA GUYS</li>
+            </ul>
+
+            <div class="modal-buttons">
+              <button
+                class="btn whatsapp-btn green-btn"
+                onclick="hubungiWa('Mobile Legends')"
+              >
+                Pesan Sekarang
+              </button>
+              <button class="btn close-btn red-btn">Tutup</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-fc-mobile" class="modal">
+          <div class="modal-content">
+            <h2>FC Mobile</h2>
+
+            <h3>Catatan :</h3>
+            <ul class="modal-description-list">
+              <li>Pilih Tipe Rank Divisi (VS, H2H, MANAGER)</li>
+              <li>Bonus OVR Formasi</li>
+              <li>DIHARAPKAN TIDAK TABRAK LOGIN AKUN SAAT PENGERJAAN AKUN</li>
+              <li>DEFEAT TIDAK DIHITUNG PAYMENT</li>
+              <li>TIDAK MENJAMIN WS</li>
+              <li>FREE BONUS MATCH ×1-2 MATCH</li>
+              <li>KEAMANAN AKUN TERJAGA YA GUYS</li>
+            </ul>
+
+            <h3>Daftar Harga Paket :</h3>
+            <ul class="modal-description-list">
+              <li><b>PAKET AMATEUR III - AMATEUR II :</b> 2K/Match</li>
+              <li><b>PAKET AMATEUR II - AMATEUR I :</b> 2K/Match</li>
+              <li><b>PAKET AMATEUR I - PRO III :</b> 2K/Match</li>
+              <li><b>PAKET PRO III - PRO II :</b> 3K/Match</li>
+              <li><b>PAKET PRO II - PRO I :</b> 3K/Match</li>
+              <li><b>PAKET PRO I - WC III :</b> 3K/Match</li>
+              <li><b>PAKET WC III - WC II :</b> 5K/Match</li>
+              <li><b>PAKET WC II - WC I :</b> 7K/Match</li>
+              <li><b>PAKET WC I - LEGENDARY III :</b> 9K/Match</li>
+              <li><b>PAKET LEGENDARY III - LEGENDARY II :</b> 10K/Match</li>
+              <li><b>PAKET LEGENDARY II - LEGENDARY I :</b> 12K/Match</li>
+              <li><b>PAKET LEGENDARY I - FC CHAMP III :</b> 15K/Match</li>
+            </ul>
+
+            <div class="modal-buttons">
+              <button
+                class="btn whatsapp-btn green-btn"
+                onclick="hubungiWa('FC Mobile')"
+              >
+                Pesan Sekarang
+              </button>
+              <button class="btn close-btn red-btn">Tutup</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="mengapa-kami" class="why-us">
+      <div class="container">
+        <h2><strong>Kenapa Harus NoStress Co.?</strong></h2>
+        <div class="why-us-grid">
+          <div class="why-us-item">
+            <i class="fas fa-check-circle"></i>
+            <h3>Profesional & Terpercaya</h3>
+            <p>
+              Tim kami terdiri dari para ahli yang kompeten dan berpengalaman di
+              bidangnya.
+            </p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-stopwatch"></i>
+            <h3>Pengerjaan Cepat</h3>
+            <p>
+              Kami berkomitmen untuk menyelesaikan pekerjaan tepat waktu tanpa
+              mengorbankan kualitas.
+            </p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Keamanan Terjamin</h3>
+            <p>Privasi dan keamanan data Anda adalah prioritas utama kami.</p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-money-bill-wave"></i>
+            <h3>Harga Kompetitif</h3>
+            <p>
+              Kami menawarkan layanan berkualitas tinggi dengan harga yang
+              bersaing.
+            </p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-headset"></i>
+            <h3>Dukungan Pelanggan 24/7</h3>
+            <p>
+              Tim dukungan kami siap membantu Anda kapan saja Anda butuhkan.
+            </p>
+          </div>
+          <div class="why-us-item">
+            <i class="fas fa-smile"></i>
+            <h3>Kepuasan Pelanggan</h3>
+            <p>
+              Kami selalu berusaha memberikan yang terbaik untuk memastikan
+              kepuasan Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Data dan Pecapaian Kami Mendukung Kesuksesan Klien</p>
+        </div>
+
+        <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="19"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="24"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="180"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="12"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Hard Workers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Testimoni</h2>
+          <p>
+            Kesan positif dari para pelanggan yang telah merasakan manfaatnya
+          </p>
+        </div>
+
+        <div
+          class="testimonials-slider swiper"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="img/testimonials/pekerja.png"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Faris Ramadhan</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Kami sangat puas dengan hasil kerja tim NoStress Co. Mereka
+                  tidak hanya cepat dan responsif, tetapi juga memiliki
+                  kemampuan luar biasa dalam menciptakan desain yang sangat
+                  sesuai dengan visi dan kebutuhan kami.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="img/testimonials/karyawan.png"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Yuyun Fatimah</h3>
+                <h4>Karyawan</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Prosesnya mudah, komunikasi dengan timnya lancar, dan yang
+                  paling penting, laporan yang mereka buat sesuai dengan apa
+                  yang saya butuhkan. Terima kasih banyak, NoStress Co.! Sungguh
+                  membantu!"
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="img/testimonials/pekerja.png"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Fahrezi Tresno</h3>
+                <h4>Karyawan</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Laporannya disusun rapi dan dikirim tepat waktu. Komunikasi
+                  dengan timnya juga enak, jadi prosesnya lancar dari awal
+                  sampai akhir. Sangat membantu banget pas lagi dikejar
+                  deadline!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="img/testimonials/karyawan.png"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Khoirunnisa</h3>
+                <h4>Mahasiswi</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Prosesnya cepet, hasilnya rapi, dan yang paling penting,
+                  mereka ngerti banget cara ngerjainnya biar sesuai dengan yang
+                  diminta dosen. Aku jadi bisa relax deh! Thanks banget,
+                  NoStress Co.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="img/testimonials/mahasiswa.png"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Amirul Mu'minin</h3>
+                <h4>Mahasiswa</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  "Cepat banget bantuin aku ngerjain tugas kuliah yang mendesak,
+                  hasilnya memuaskan, dan mereka juga jelasin bagian yang aku
+                  nggak ngerti jadi bisa belajar lebih!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>NoStress Co.</span></strong> All Rights
+          Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <a
+      href="https://wa.me/6282113367549"
+      class="whatsapp-button"
+      target="_blank"
+    >
+      <i class="bi bi-whatsapp"></i>
+      <span class="popup-text"><strong>Konsultasi</strong></span>
+    </a>
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
